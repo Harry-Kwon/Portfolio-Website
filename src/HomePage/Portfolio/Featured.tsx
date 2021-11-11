@@ -2,22 +2,13 @@ import image_oasis from 'data/oasis/oasis-1.png';
 import image_ebs from 'data/swink/swink-1.png';
 import image_whenisraid from 'data/whenisraid/whenisraid-1.png';
 import image_memory from 'data/memory/memory-1.png';
+import image_portfolio from 'data/website/portfolio_site.png';
 
 import { Typography, Stack, Container } from '@mui/material';
 import { SummaryProps, Summary } from './Summary';
 
 
 const projects = [
-  {
-    image: image_oasis,
-    title: "OASIS Image Editor",
-    tagline: "Ophthamology image analysis software built for CWRU's Biomedical Imaging Lab.",
-    responsibilities: ["Python", "Qt", "OpenCV", "SQL Server", "Software Documentation"],
-    summary: `I worked with researchers at 
-    Case Western Reserve University's Biomedical Imagaging Lab
-    to create an image analysis tool with remote file storage using Python, Qt, and SQL Server.`,
-    link: "https://engineering.case.edu/ebme/bmil"
-  },
   {
     image: image_whenisraid,
     title: "WhenIsRaid Scheduler",
@@ -31,6 +22,30 @@ const projects = [
     `,
     link: "https://whenisraid.com/",
     github: "https://github.com/Harry-Kwon/when-is-raid"
+  },
+  {
+    image: image_portfolio,
+    title: "Portfolio Website",
+    tagline: "This website!",
+    responsibilities: ["Typescript", "React", "HTML", "CSS", "Docker", "Nginx", "Reactive Design"],
+    summary: `
+    I built this website to showcase my work!
+    I used React with Typescript and CSS to build this website,
+    and I deployed it in a DigitalOcean virtual machine using Docker and Nginx.
+    I hope to add many more great projects to my portfolio. Maybe yours could be next?
+    `,
+    link: "https://harrykwon.dev",
+    github: "https://github.com/Harry-Kwon/Portfolio-Website"
+  },
+  {
+    image: image_oasis,
+    title: "OASIS Image Editor",
+    tagline: "Ophthamology image analysis software built for CWRU's Biomedical Imaging Lab.",
+    responsibilities: ["Python", "Qt", "OpenCV", "SQL Server", "Software Documentation"],
+    summary: `I worked with researchers at 
+    Case Western Reserve University's Biomedical Imagaging Lab
+    to create an image analysis tool with remote file storage using Python, Qt, and SQL Server.`,
+    link: "https://engineering.case.edu/ebme/bmil"
   },
   {
     image: image_ebs,
