@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <g fill="#61DAFB">
+        <line x1="50" y1="60" x2="20" y2="45" stroke="#fff" stroke-linecap="round"/>
+        <line x1="50" y1="60" x2="80" y2="45" stroke="#fff" stroke-linecap="round"/>
+        <line x1="50" y1="30" x2="20" y2="45" stroke="#fff" stroke-linecap="round"/>
+        <line x1="50" y1="30" x2="80" y2="45" stroke="#fff" stroke-linecap="round"/>
+
+        <line x1="50" y1="90" x2="20" y2="75" stroke="#fff" stroke-linecap="round"/>
+        <line x1="50" y1="90" x2="80" y2="75" stroke="#fff" stroke-linecap="round"/>
+
+        <!--sides-->
+        <line x1="20" y1="45" x2="20" y2="75" stroke="#fff"/>
+        <line x1="80" y1="45" x2="80" y2="75" stroke="#fff"/>
+        <line x1="50" y1="90" x2="50" y2="60" stroke="#fff"/>
+
+        <!--lids-->
+        <line x1="50" y1="60" x2="60" y2="75" stroke="#fff"/>
+        <line x1="80" y1="45" x2="90" y2="60" stroke="#fff"/>
+        <line x1="60" y1="75" x2="90" y2="60" stroke="#fff"/>
+
+        <line x1="50" y1="60" x2="40" y2="75" stroke="#fff"/>
+        <line x1="20" y1="45" x2="10" y2="60" stroke="#fff"/>
+        <line x1="40" y1="75" x2="10" y2="60" stroke="#fff"/>
+
+        <!--arrow-->
+        <line x1="50" y1="50" x2="50" y2="10" stroke="#fff"/>
+        <line x1="35" y1="25" x2="50" y2="10" stroke="#fff"/>
+        <line x1="65" y1="25" x2="50" y2="10" stroke="#fff"/>
+    </g>
+    <style>
+        svg, svg path {
+            stroke-width: 2;
+            stroke: #fff;
+            fill: none;
+            stroke-miterlimit: 10;
+        }
+    </style>
+</svg>

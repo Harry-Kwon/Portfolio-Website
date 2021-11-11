@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <g fill="#61DAFB">
+        <line x1="50" y1="60" x2="0"   y2="35" stroke="#fff"/>
+        <line x1="50" y1="60" x2="100" y2="35" stroke="#fff"/>
+        <line x1="50" y1="10"  x2="0"   y2="35" stroke="#fff"/>
+        <line x1="50" y1="10"  x2="100" y2="35" stroke="#fff"/>
+
+        <line x1="50" y1="75" x2="0"   y2="50" stroke="#fff"/>
+        <line x1="50" y1="75" x2="100" y2="50" stroke="#fff"/>
+        <line x1="15" y1="43" x2="0"   y2="50" stroke="#fff"/>
+        <line x1="85" y1="43" x2="100" y2="50" stroke="#fff"/>
+
+        <line x1="50" y1="90" x2="0"   y2="65" stroke="#fff"/>
+        <line x1="50" y1="90" x2="100" y2="65" stroke="#fff"/>
+        <line x1="15" y1="58" x2="0"   y2="65" stroke="#fff"/>
+        <line x1="85" y1="58" x2="100" y2="65" stroke="#fff"/>
+    </g>
+    <style>
+        svg, svg path {
+            stroke-width: 2;
+            stroke: #fff;
+            fill: none;
+            stroke-miterlimit: 10;
+        }
+    </style>
+</svg>

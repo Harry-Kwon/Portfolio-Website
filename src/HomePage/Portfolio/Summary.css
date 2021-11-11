@@ -1,0 +1,43 @@
+.summary-dropdown {
+  padding: 0.5em;
+  margin: 0.5em 1em 0;
+  border-top: #ccc solid 2px;
+
+  display: grid;
+  grid-template-columns: min-content 2fr;
+  grid-template-rows: 1fr min-content;
+  grid-gap: 1em;
+  justify-items: start;
+}
+
+ .responsibilities {
+  grid-row-start: span 2;
+  background-color: #f9f9f9;
+  color: #000;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.responsibilities ul{
+  padding-left: 0;
+  list-style: inside;
+  margin: 0;
+  width: min-content;
+}
+
+.responsibilities li{
+  width: min-content;
+  white-space: nowrap;
+}
+
+.summary {
+  padding-top: 1em;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  gap: 0.5em;
+}

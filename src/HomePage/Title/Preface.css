@@ -1,0 +1,24 @@
+.preface-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+}
+
+.preface-container img {
+  justify-self: center;
+  margin-bottom: 1rem;
+}
+
+.preface-item {
+  background-color: inherit;
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 20px;
+  min-width: 100px;
+}

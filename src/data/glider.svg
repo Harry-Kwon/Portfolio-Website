@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97">
+    <rect width="31" height="31" x="33" y="0"/>
+    <rect width="31" height="31" x="66" y="33"/>
+    <rect width="31" height="31" x="0" y="66"/>
+    <rect width="31" height="31" x="33" y="66"/>
+    <rect width="31" height="31" x="66" y="66"/>
+    <style>
+        svg, svg path {
+            stroke-width: 0.64*2;
+            stroke: #fff;
+            color: #fff;
+            fill: #fff;
+            stroke-miterlimit: 10;
+        }
+    </style>
+</svg>

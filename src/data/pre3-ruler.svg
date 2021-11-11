@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <path 
+        stroke-miterlimit="10"
+        d="M 1,63
+           L1,2
+           L62,63 Z"
+    />
+    <path d="M14,54L14,30L38,54Z"/>
+    <path d="M8,22L2,22"/>
+    <path d="M6,30L2,30"/>
+    <path d="M8,38L2,38"/>
+    <path d="M6,46L2,46"/>
+    <path d="M8,54L2,54"/>
+    <path d="M25,1L19,7L55,43L63,45L61,37Z"/>
+    <path d="M25,13L31,7"/>
+    <style>
+        svg, svg path {
+            stroke-width: 0.64*2;
+            stroke: #fff;
+            fill: none;
+            stroke-miterlimit: 10;
+        }
+    </style>
+</svg>

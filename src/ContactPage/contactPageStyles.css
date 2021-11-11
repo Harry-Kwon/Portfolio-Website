@@ -1,0 +1,10 @@
+.contactsGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 50px 1fr;
+  justify-items: center;
+}
+
+.contactText {
+  justify-self: start;
+}
