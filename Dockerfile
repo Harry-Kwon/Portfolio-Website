@@ -7,14 +7,17 @@ WORKDIR /app
 # add /app/node_modules/.bin to $PATH
 ENV PATH /app/node_modules/.bin:$PATH
 
-# install app dependencies
-COPY package.json ./
-COPY package-lock.json ./
-RUN npm install
-RUN npm install react-scripts@4.0.3 -g
-
 # add app
 COPY . ./
 
+# install app dependencies
+RUN npm install
+
+# build the app
+RUN npm run build
+
+# install serve
+RUN npm install -g serve
+
 # start app
-CMD ["npm", "start"]
+CMD ["serve", "-s", "build", "-l", "3000", "-n"]

@@ -5,26 +5,15 @@ A website showcasing my work!
 Built with React and Material-UI.
 
 # Docker Instructions
-`Dockerfile` creates the image for the dev server.
+`Dockerfile` creates the image deploy the server
 Build with:
 ```
-docker run \
-  -it \
-  --rm \
-  -v ${PWD}:/app \
-  -v /app/node_modules \
-  -p 3001:3000 \
-  -e CHOKIDAR_USEPOLLING=true \
-  portfolio:dev
+docker build -f Dockerfile -t portfolio.dev .
 ```
 
-`Dockerfile.prod` create the image for the production server.
-Build with: 
+Run with:
 ```
-docker build -f Dockerfile.prod -t portfolio:prod .
+docker run -it --rm -p 3000:3000 portfolio:dev
 ```
 
-And run with:
-```
-docker run -it --rm -p 8001:80 portfolio:prod
-```
+Will serve the app on port 3000
