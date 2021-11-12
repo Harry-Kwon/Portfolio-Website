@@ -8,7 +8,7 @@ Built with React and Material-UI.
 `Dockerfile` creates the image deploy the server
 Build with:
 ```
-docker build -f Dockerfile -t portfolio.dev .
+docker build -f Dockerfile -t portfolio:dev .
 ```
 
 Run with:
