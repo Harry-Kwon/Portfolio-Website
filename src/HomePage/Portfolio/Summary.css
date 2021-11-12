@@ -41,3 +41,14 @@
   justify-content: end;
   gap: 0.5em;
 }
+
+.card-cover {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card-cover-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

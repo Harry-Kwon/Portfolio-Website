@@ -48,34 +48,38 @@ export const Summary = (props: SummaryProps) => {
   return (
     <Card raised={true}>
       <Box sx={{display: 'flex', p: 0}}>
-        <CardMedia
-          component="img"
-          sx={{
-            maxWidth: '50%',
-            objectFit: 'scale-down'
-          }}
-          image={image}
-          alt={title}
-        />
-        <CardContent sx={{
-          flex: 1,
-          display: 'flex',
-          alignItems: 'start',
-          justifyContent: 'center',
-          flexDirection: 'column'
-        }}>
-          <Typography variant="h4" color="#000">
-            {title}
-          </Typography>
-          <Typography variant="subtitle1" color="#111">
-            {tagline}
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <IconButton onClick={handleExpand}>
-            <ExpandMoreIcon/>
-          </IconButton>
-        </CardActions>
+        <div className="card-cover">
+          <CardMedia
+            component="img"
+            sx={{
+              width: '100%',
+              objectFit: 'scale-down'
+            }}
+            image={image}
+            alt={title}
+          />
+          <div className='card-cover-text'>
+            <CardContent sx={{
+              flex: 1,
+              display: 'flex',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'column',
+            }}>
+              <Typography variant="h4" color="#000">
+                {title}
+              </Typography>
+              <Typography variant="subtitle1" color="#111">
+                {tagline}
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <IconButton onClick={handleExpand}>
+                <ExpandMoreIcon/>
+              </IconButton>
+            </CardActions>
+          </div>
+        </div>
       </Box>
       <Collapse in={expand}>
         <Box className="summary-dropdown">
